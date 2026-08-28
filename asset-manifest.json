@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hot_dog_react/static/css/main.2cd05554.css",
+    "main.js": "/hot_dog_react/static/js/main.0931c62f.js",
+    "static/css/727.ef817f93.chunk.css": "/hot_dog_react/static/css/727.ef817f93.chunk.css",
+    "static/js/727.648ac352.chunk.js": "/hot_dog_react/static/js/727.648ac352.chunk.js",
+    "index.html": "/hot_dog_react/index.html",
+    "main.2cd05554.css.map": "/hot_dog_react/static/css/main.2cd05554.css.map",
+    "main.0931c62f.js.map": "/hot_dog_react/static/js/main.0931c62f.js.map",
+    "727.ef817f93.chunk.css.map": "/hot_dog_react/static/css/727.ef817f93.chunk.css.map",
+    "727.648ac352.chunk.js.map": "/hot_dog_react/static/js/727.648ac352.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cd05554.css",
+    "static/js/main.0931c62f.js"
+  ]
+}
