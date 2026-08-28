@@ -16,6 +16,6 @@ if (rootElem) {
       <HashRouter basename="/">
         <App />
       </HashRouter>
-    </Provider>
+    </Provider>,
   );
 }

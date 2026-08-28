@@ -100,12 +100,23 @@ body {
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .container_food {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 993px) {
+  .container_food {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     .container_food {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       .food_block {
-        width: 70%;
+        //   width: 70%;
+        max-width: 370px;
         .container_image {
           img {
             height: 200px;
