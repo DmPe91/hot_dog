@@ -15,13 +15,13 @@ import {
 
 function Header() {
   const { items, totalPrice } = useSelector(
-    (state: RootState) => state.cartSlice
+    (state: RootState) => state.cartSlice,
   );
   const isMounted = React.useRef(false);
   const location = useLocation();
   const totalCount = items.reduce(
     (sum: number, item: any) => sum + item.count,
-    0
+    0,
   );
   React.useEffect(() => {
     if (isMounted.current) {
@@ -36,7 +36,7 @@ function Header() {
       <Link to="/" className="link">
         <div className="header_logo">
           <div>
-            <img src="https://dmpe91.github.io/hot_dog_react/assets/image/logo/logo_shau.png" />
+            <img src="https://dmpe91.github.io/hot_dog/assets/image/logo/logo_shau.png" />
           </div>
         </div>
         <div className="header_tittle">
